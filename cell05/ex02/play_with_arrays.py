@@ -9,8 +9,8 @@ array6 = 28
 array7 = 42
 Original_array = [-42,-28,-14,0,14,28,42];
 New_array = [];
-print("Original_array :",Original_array)
+print(Original_array)
 for x in range(len(Original_array)):
     if Original_array[x] > 5:
         New_array.append(Original_array[x] + 2)
-print("New_array :",New_array)
+print(New_array)
